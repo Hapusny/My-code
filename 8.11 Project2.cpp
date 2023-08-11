@@ -24,23 +24,23 @@ int main()
 			Sleep(1000);
 			system("cls");
 		}
-		printf("请输入你想要的字母\n");
+		printf("璇疯緭鍏ヤ綘鎯宠鐨勫瓧姣峔n");
 		scanf("%s", arr1);
 		system("cls");
-		printf("输出你刚才输入的字母\n");
+		printf("杈撳嚭浣犲垰鎵嶈緭鍏ョ殑瀛楁瘝\n");
 		scanf("%s", arr2);
 		if (strcmp(arr1, arr2) == 0)
 		{
-			printf("成功");
+			printf("鎴愬姛");
 		}
 		else
 		{
-			printf("失败");
+			printf("澶辫触");
 		}
 	}
 	else
 	{
-		printf("\n是不是玩不起");
+		printf("\n鏄笉鏄帺涓嶈捣");
 	}
 	return 0;
 }
